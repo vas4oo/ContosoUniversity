@@ -160,10 +160,25 @@ namespace ContosoUniversity.Controllers
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> DeleteConfirmed(int id)
 		{
-			var student = await _context.Students.SingleOrDefaultAsync(m => m.ID == id);
-			_context.Students.Remove(student);
-			await _context.SaveChangesAsync();
-			return RedirectToAction("Index");
+			var student = await _context.Students
+				.AsNoTracking()
+				.SingleOrDefaultAsync(m => m.ID == id);
+			if (student == null)
+			{
+				return RedirectToAction("Index");
+			}
+
+			try
+			{
+				_context.Students.Remove(student);
+				await _context.SaveChangesAsync();
+				return RedirectToAction("Index");
+			}
+			catch (DbUpdateException /* ex */)
+			{
+				//Log the error (uncomment ex variable name and write a log.)
+				return RedirectToAction("Delete", new { id = id, saveChangesError = true });
+			}
 		}
 
 		private bool StudentExists(int id)
