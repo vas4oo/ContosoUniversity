@@ -230,6 +230,7 @@
 --reference:C:\Users\vasil.smolyanski\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\vasil.smolyanski\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --resource:"D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\obj\Debug\netcoreapp1.0\ContosoUniversitydotnet-compile.deps.json",ContosoUniversity.deps.json
+D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\PaginatedList.cs
 D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\Program.cs
 D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\Startup.cs
 D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\Controllers\AccountController.cs
@@ -262,6 +263,7 @@ D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\Models\ManageVi
 D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\RemoveLoginViewModel.cs
 D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\SetPasswordViewModel.cs
 D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\VerifyPhoneNumberViewModel.cs
+D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\Models\SchoolViewModels\EnrollmentDateGroup.cs
 D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\Services\IEmailSender.cs
 D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\Services\ISmsSender.cs
 D:\Projects\dot NET Core\ContosoUniversity\src\ContosoUniversity\Services\MessageServices.cs
