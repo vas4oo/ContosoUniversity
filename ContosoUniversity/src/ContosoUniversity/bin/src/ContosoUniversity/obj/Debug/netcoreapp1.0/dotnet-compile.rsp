@@ -1,5 +1,5 @@
---temp-output:C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\obj\Debug\netcoreapp1.0\
---out:C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\bin\Debug\netcoreapp1.0\ContosoUniversity.dll
+--temp-output:C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\bin\src\ContosoUniversity\obj\Debug\netcoreapp1.0\
+--out:C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\bin\src\ContosoUniversity\bin\Debug\netcoreapp1.0\ContosoUniversity.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -229,7 +229,7 @@
 --reference:C:\Users\vasil.smolyanski\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\vasil.smolyanski\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\vasil.smolyanski\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\obj\Debug\netcoreapp1.0\ContosoUniversitydotnet-compile.deps.json",ContosoUniversity.deps.json
+--resource:"C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\bin\src\ContosoUniversity\obj\Debug\netcoreapp1.0\ContosoUniversitydotnet-compile.deps.json",ContosoUniversity.deps.json
 C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\PaginatedList.cs
 C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Program.cs
 C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Startup.cs
@@ -243,8 +243,10 @@ C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Data\S
 C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Data\Migrations\00000000000000_CreateIdentitySchema.cs
 C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs
 C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Data\Migrations\ApplicationDbContextModelSnapshot.cs
-C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Migrations\20170317151558_InitialCreate.cs
-C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Migrations\20170317151558_InitialCreate.Designer.cs
+C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Migrations\20170317150555_InitialCreate.cs
+C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Migrations\20170317150555_InitialCreate.Designer.cs
+C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Migrations\20170317151148_ComplexDataModel.cs
+C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Migrations\20170317151148_ComplexDataModel.Designer.cs
 C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Migrations\SchoolContextModelSnapshot.cs
 C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Models\ApplicationUser.cs
 C:\Users\vasil.smolyanski\Desktop\ContosoUniversity\src\ContosoUniversity\Models\Course.cs
